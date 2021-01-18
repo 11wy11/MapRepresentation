@@ -1,0 +1,199 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qgsfeaturefilterwidget_p.h'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.2)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../../../../../../../src/gui/attributetable/qgsfeaturefilterwidget_p.h"
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qgsfeaturefilterwidget_p.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.11.2. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_QgsFeatureFilterWidget_t {
+    QByteArrayData data[22];
+    char stringdata0[412];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QgsFeatureFilterWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QgsFeatureFilterWidget_t qt_meta_stringdata_QgsFeatureFilterWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 22), // "QgsFeatureFilterWidget"
+QT_MOC_LITERAL(1, 23, 13), // "filterShowAll"
+QT_MOC_LITERAL(2, 37, 0), // ""
+QT_MOC_LITERAL(3, 38, 14), // "filterSelected"
+QT_MOC_LITERAL(4, 53, 13), // "filterVisible"
+QT_MOC_LITERAL(5, 67, 13), // "columnBoxInit"
+QT_MOC_LITERAL(6, 81, 29), // "storedFilterExpressionBoxInit"
+QT_MOC_LITERAL(7, 111, 25), // "storeExpressionButtonInit"
+QT_MOC_LITERAL(8, 137, 23), // "filterExpressionBuilder"
+QT_MOC_LITERAL(9, 161, 12), // "filterEdited"
+QT_MOC_LITERAL(10, 174, 18), // "filterQueryChanged"
+QT_MOC_LITERAL(11, 193, 5), // "query"
+QT_MOC_LITERAL(12, 199, 19), // "filterQueryAccepted"
+QT_MOC_LITERAL(13, 219, 24), // "onFilterQueryTextChanged"
+QT_MOC_LITERAL(14, 244, 5), // "value"
+QT_MOC_LITERAL(15, 250, 27), // "handleStoreFilterExpression"
+QT_MOC_LITERAL(16, 278, 28), // "saveAsStoredFilterExpression"
+QT_MOC_LITERAL(17, 307, 26), // "editStoredFilterExpression"
+QT_MOC_LITERAL(18, 334, 35), // "updateCurrentStoredFilterExpr..."
+QT_MOC_LITERAL(19, 370, 19), // "filterColumnChanged"
+QT_MOC_LITERAL(20, 390, 8), // "QAction*"
+QT_MOC_LITERAL(21, 399, 12) // "filterAction"
+
+    },
+    "QgsFeatureFilterWidget\0filterShowAll\0"
+    "\0filterSelected\0filterVisible\0"
+    "columnBoxInit\0storedFilterExpressionBoxInit\0"
+    "storeExpressionButtonInit\0"
+    "filterExpressionBuilder\0filterEdited\0"
+    "filterQueryChanged\0query\0filterQueryAccepted\0"
+    "onFilterQueryTextChanged\0value\0"
+    "handleStoreFilterExpression\0"
+    "saveAsStoredFilterExpression\0"
+    "editStoredFilterExpression\0"
+    "updateCurrentStoredFilterExpression\0"
+    "filterColumnChanged\0QAction*\0filterAction"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QgsFeatureFilterWidget[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      16,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   94,    2, 0x0a /* Public */,
+       3,    0,   95,    2, 0x0a /* Public */,
+       4,    0,   96,    2, 0x0a /* Public */,
+       5,    0,   97,    2, 0x08 /* Private */,
+       6,    0,   98,    2, 0x08 /* Private */,
+       7,    0,   99,    2, 0x08 /* Private */,
+       8,    0,  100,    2, 0x08 /* Private */,
+       9,    0,  101,    2, 0x08 /* Private */,
+      10,    1,  102,    2, 0x08 /* Private */,
+      12,    0,  105,    2, 0x08 /* Private */,
+      13,    1,  106,    2, 0x08 /* Private */,
+      15,    0,  109,    2, 0x08 /* Private */,
+      16,    0,  110,    2, 0x08 /* Private */,
+      17,    0,  111,    2, 0x08 /* Private */,
+      18,    0,  112,    2, 0x08 /* Private */,
+      19,    1,  113,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   11,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,   14,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 20,   21,
+
+       0        // eod
+};
+
+void QgsFeatureFilterWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        QgsFeatureFilterWidget *_t = static_cast<QgsFeatureFilterWidget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->filterShowAll(); break;
+        case 1: _t->filterSelected(); break;
+        case 2: _t->filterVisible(); break;
+        case 3: _t->columnBoxInit(); break;
+        case 4: _t->storedFilterExpressionBoxInit(); break;
+        case 5: _t->storeExpressionButtonInit(); break;
+        case 6: _t->filterExpressionBuilder(); break;
+        case 7: _t->filterEdited(); break;
+        case 8: _t->filterQueryChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 9: _t->filterQueryAccepted(); break;
+        case 10: _t->onFilterQueryTextChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 11: _t->handleStoreFilterExpression(); break;
+        case 12: _t->saveAsStoredFilterExpression(); break;
+        case 13: _t->editStoredFilterExpression(); break;
+        case 14: _t->updateCurrentStoredFilterExpression(); break;
+        case 15: _t->filterColumnChanged((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 15:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QAction* >(); break;
+            }
+            break;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject QgsFeatureFilterWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_QgsFeatureFilterWidget.data,
+      qt_meta_data_QgsFeatureFilterWidget,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *QgsFeatureFilterWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QgsFeatureFilterWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QgsFeatureFilterWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int QgsFeatureFilterWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 16)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 16;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 16)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 16;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

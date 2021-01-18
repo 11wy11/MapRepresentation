@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{99780223-3A8A-3E43-A1BD-19607D03C9C6}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>INSTALL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64;C:\OSGeo4W64\QGIS\src\gui;C:\OSGeo4W64\QGIS\src\gui\attributeformconfig;C:\OSGeo4W64\QGIS\src\gui\symbology;C:\OSGeo4W64\QGIS\src\gui\attributetable;C:\OSGeo4W64\QGIS\src\gui\auth;C:\OSGeo4W64\QGIS\src\gui\codeeditors;C:\OSGeo4W64\QGIS\src\gui\devtools;C:\OSGeo4W64\QGIS\src\gui\editorwidgets;C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core;C:\OSGeo4W64\QGIS\src\gui\effects;C:\OSGeo4W64\QGIS\src\gui\labeling;C:\OSGeo4W64\QGIS\src\gui\layertree;C:\OSGeo4W64\QGIS\src\gui\layout;C:\OSGeo4W64\QGIS\src\gui\mesh;C:\OSGeo4W64\QGIS\src\gui\numericformats;C:\OSGeo4W64\QGIS\src\gui\ogr;C:\OSGeo4W64\QGIS\src\gui\processing;C:\OSGeo4W64\QGIS\src\gui\processing\models;C:\OSGeo4W64\QGIS\src\gui\providers;C:\OSGeo4W64\QGIS\src\gui\providers\gdal;C:\OSGeo4W64\QGIS\src\gui\providers\ogr;C:\OSGeo4W64\QGIS\src\gui\pointcloud;C:\OSGeo4W64\QGIS\src\gui\raster;C:\OSGeo4W64\QGIS\src\gui\vector;C:\OSGeo4W64\QGIS\src\gui\vectortile;C:\OSGeo4W64\QGIS\src\gui\tableeditor;C:\OSGeo4W64\QGIS\src\core;C:\OSGeo4W64\QGIS\src\core\3d;C:\OSGeo4W64\QGIS\src\core\annotations;C:\OSGeo4W64\QGIS\src\core\auth;C:\OSGeo4W64\QGIS\src\core\callouts;C:\OSGeo4W64\QGIS\src\core\dxf;C:\OSGeo4W64\QGIS\src\core\fieldformatter;C:\OSGeo4W64\QGIS\src\core\geocoding;C:\OSGeo4W64\QGIS\src\core\geometry;C:\OSGeo4W64\QGIS\src\core\labeling;C:\OSGeo4W64\QGIS\src\core\layertree;C:\OSGeo4W64\QGIS\src\core\layout;C:\OSGeo4W64\QGIS\src\core\locator;C:\OSGeo4W64\QGIS\src\core\metadata;C:\OSGeo4W64\QGIS\src\core\numericformats;C:\OSGeo4W64\QGIS\src\core\processing;C:\OSGeo4W64\QGIS\src\core\processing\models;C:\OSGeo4W64\QGIS\src\core\mesh;C:\OSGeo4W64\QGIS\src\core\pointcloud;C:\OSGeo4W64\QGIS\src\core\pal;C:\OSGeo4W64\QGIS\src\core\providers\memory;C:\OSGeo4W64\QGIS\src\core\providers\gdal;C:\OSGeo4W64\QGIS\src\core\providers\ogr;C:\OSGeo4W64\QGIS\src\core\raster;C:\OSGeo4W64\QGIS\src\core\scalebar;C:\OSGeo4W64\QGIS\src\core\symbology;C:\OSGeo4W64\QGIS\src\core\classification;C:\OSGeo4W64\QGIS\src\core\effects;C:\OSGeo4W64\QGIS\src\core\expression;C:\OSGeo4W64\QGIS\src\core\textrenderer;C:\OSGeo4W64\QGIS\src\core\validity;C:\OSGeo4W64\QGIS\src\core\vectortile;C:\OSGeo4W64\QGIS\src\native;C:\OSGeo4W64\QGIS\external;C:\OSGeo4W64\QGIS\external\nlohmann;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\core;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\gui;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\ui;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\native;C:\OSGeo4W64\QGIS\src\native\win;C:\OSGeo4W64\apps\proj-dev\include;C:\OSGeo4W64\apps\gdal-dev\include;C:\OSGeo4W64\include;C:\OSGEO4~1\apps\Qt5\include\QtCrypto;C:\OSGeo4W64\apps\Qt5\include\qt5keychain;C:\OSGeo4W64\apps\Qt5\include\qwt6;C:\OSGeo4W64\apps\Qt5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\cmake-3.19.0-win64-x64\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\CMakeFiles\c8f26deea2627c6a3dde57ed3ecb1b1e\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\gui\CMakeFiles\INSTALL_force</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\ZERO_CHECK.vcxproj">
+      <Project>{1023D16C-22F7-3B1C-9D07-08AFB1950A8B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\ALL_BUILD.vcxproj">
+      <Project>{D44D5E15-EAD4-3FF2-8E6B-FD22397838D2}</Project>
+      <Name>ALL_BUILD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

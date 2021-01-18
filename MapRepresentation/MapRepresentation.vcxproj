@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-        <ProjectConfiguration Include="Debug|x64">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
@@ -15,8 +15,7 @@
     <Keyword>QtVS_v303</Keyword>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.14393.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0.14393.0</WindowsTargetPlatformVersion>
-    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')"
-      >$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
@@ -28,11 +27,8 @@
     <PlatformToolset>v140</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Target Name="QtMsBuildNotFound"
-    BeforeTargets="CustomBuild;ClCompile"
-    Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
-    <Message Importance="High"
-      Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
   </Target>
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared" />
@@ -50,6 +46,19 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
   </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\app\qgis_app_autogen\include_RelWithDebInfo;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64;C:\OSGeo4W64\QGIS\external\libdxfrw;C:\OSGeo4W64\QGIS\external\nmea;C:\OSGeo4W64\QGIS\external;C:\OSGeo4W64\QGIS\src\app;C:\OSGeo4W64\QGIS\src\app\decorations;C:\OSGeo4W64\QGIS\src\app\devtools\networklogger;C:\OSGeo4W64\QGIS\src\app\labeling;C:\OSGeo4W64\QGIS\src\app\layout;C:\OSGeo4W64\QGIS\src\app\pluginmanager;C:\OSGeo4W64\QGIS\src\app\gps;C:\OSGeo4W64\QGIS\src\app\dwg;C:\OSGeo4W64\QGIS\src\app\mesh;C:\OSGeo4W64\QGIS\src\app\locator;C:\OSGeo4W64\QGIS\src\app\pointcloud;C:\OSGeo4W64\QGIS\src\app\vectortile;C:\OSGeo4W64\QGIS\src\analysis;C:\OSGeo4W64\QGIS\src\analysis\raster;C:\OSGeo4W64\QGIS\src\analysis\mesh;C:\OSGeo4W64\QGIS\src\core;C:\OSGeo4W64\QGIS\src\core\annotations;C:\OSGeo4W64\QGIS\src\core\auth;C:\OSGeo4W64\QGIS\src\core\expression;C:\OSGeo4W64\QGIS\src\core\gps;C:\OSGeo4W64\QGIS\src\core\dxf;C:\OSGeo4W64\QGIS\src\core\geometry;C:\OSGeo4W64\QGIS\src\core\geocms\geonode;C:\OSGeo4W64\QGIS\src\core\metadata;C:\OSGeo4W64\QGIS\src\core\mesh;C:\OSGeo4W64\QGIS\src\core\pointcloud;C:\OSGeo4W64\QGIS\src\core\numericformats;C:\OSGeo4W64\QGIS\src\core\labeling;C:\OSGeo4W64\QGIS\src\core\layertree;C:\OSGeo4W64\QGIS\src\core\locator;C:\OSGeo4W64\QGIS\src\core\pal;C:\OSGeo4W64\QGIS\src\core\providers\memory;C:\OSGeo4W64\QGIS\src\core\raster;C:\OSGeo4W64\QGIS\src\core\scalebar;C:\OSGeo4W64\QGIS\src\core\symbology;C:\OSGeo4W64\QGIS\src\core\effects;C:\OSGeo4W64\QGIS\src\core\validity;C:\OSGeo4W64\QGIS\src\core\vectortile;C:\OSGeo4W64\QGIS\src\gui;C:\OSGeo4W64\QGIS\src\gui\attributeformconfig;C:\OSGeo4W64\QGIS\src\gui\symbology;C:\OSGeo4W64\QGIS\src\gui\attributetable;C:\OSGeo4W64\QGIS\src\gui\auth;C:\OSGeo4W64\QGIS\src\gui\codeeditors;C:\OSGeo4W64\QGIS\src\gui\devtools;C:\OSGeo4W64\QGIS\src\gui\labeling;C:\OSGeo4W64\QGIS\src\gui\mesh;C:\OSGeo4W64\QGIS\src\gui\numericformats;C:\OSGeo4W64\QGIS\src\gui\ogr;C:\OSGeo4W64\QGIS\src\gui\processing;C:\OSGeo4W64\QGIS\src\gui\pointcloud;C:\OSGeo4W64\QGIS\src\gui\raster;C:\OSGeo4W64\QGIS\src\gui\editorwidgets;C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core;C:\OSGeo4W64\QGIS\src\gui\layertree;C:\OSGeo4W64\QGIS\src\gui\locator;C:\OSGeo4W64\QGIS\src\gui\vector;C:\OSGeo4W64\QGIS\src\gui\vectortile;C:\OSGeo4W64\QGIS\src\plugins;C:\OSGeo4W64\QGIS\src\python;C:\OSGeo4W64\QGIS\src\native;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\core;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\gui;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\python;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\analysis;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\app;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\ui;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\native;C:\OSGeo4W64\QGIS\src\app\3d;C:\OSGeo4W64\QGIS\src\core\3d;C:\OSGeo4W64\QGIS\src\3d;C:\OSGeo4W64\QGIS\src\3d\materials;C:\OSGeo4W64\QGIS\src\3d\mesh;C:\OSGeo4W64\QGIS\src\3d\symbols;C:\OSGeo4W64\QGIS\src\3d\terrain;C:\OSGeo4W64\QGIS\src\3d\chunks;C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\3d;C:\OSGeo4W64\QGIS\src\app\..\analysis\processing;C:\OSGeo4W64\QGIS\src\app\..\analysis\raster;C:\OSGeo4W64\QGIS\src\app\..\analysis\vector\geometry_checker;C:\OSGeo4W64\QGIS\src\app\..\core;C:\OSGeo4W64\QGIS\src\app\..\core\annotations;C:\OSGeo4W64\QGIS\src\app\..\core\auth;C:\OSGeo4W64\QGIS\src\app\..\core\gps;C:\OSGeo4W64\QGIS\src\app\..\core\dxf;C:\OSGeo4W64\QGIS\src\app\..\core\geometry;C:\OSGeo4W64\QGIS\src\app\..\core\geocms\geonode;C:\OSGeo4W64\QGIS\src\app\..\core\layout;C:\OSGeo4W64\QGIS\src\app\..\core\metadata;C:\OSGeo4W64\QGIS\src\app\..\core\layertree;C:\OSGeo4W64\QGIS\src\app\..\core\processing;C:\OSGeo4W64\QGIS\src\app\..\core\providers\memory;C:\OSGeo4W64\QGIS\src\app\..\core\raster;C:\OSGeo4W64\QGIS\src\app\..\core\mesh;C:\OSGeo4W64\QGIS\src\app\..\core\scalebar;C:\OSGeo4W64\QGIS\src\app\..\core\symbology;C:\OSGeo4W64\QGIS\src\app\..\core\textrenderer;C:\OSGeo4W64\QGIS\src\app\..\gui;C:\OSGeo4W64\QGIS\src\app\..\gui\symbology;C:\OSGeo4W64\QGIS\src\app\..\gui\attributetable;C:\OSGeo4W64\QGIS\src\app\..\gui\auth;C:\OSGeo4W64\QGIS\src\app\..\gui\effects;C:\OSGeo4W64\QGIS\src\app\..\gui\ogr;C:\OSGeo4W64\QGIS\src\app\..\gui\raster;C:\OSGeo4W64\QGIS\src\app\..\gui\editorwidgets;C:\OSGeo4W64\QGIS\src\app\..\gui\editorwidgets\core;C:\OSGeo4W64\QGIS\src\app\..\gui\layertree;C:\OSGeo4W64\QGIS\src\app\..\gui\layout;C:\OSGeo4W64\QGIS\src\app\..\gui\tableeditor;C:\OSGeo4W64\QGIS\src\app\..\plugins;C:\OSGeo4W64\QGIS\src\app\..\python;C:\OSGeo4W64\QGIS\external\nlohmann;C:\OSGeo4W64\apps\Qt5\include\qwt6;C:\OSGeo4W64\apps\Qt5\include;C:\OSGeo4W64\QGIS\external\qt-unix-signals;C:\OSGeo4W64\include;C:\OSGeo4W64\apps\proj-dev\include;C:\OSGeo4W64\apps\gdal-dev\include;C:\OSGEO4~1\apps\Qt5\include\QtCrypto;C:\OSGeo4W64\apps\Qt5\include\qt5keychain;C:\OSGeo4W64\apps\Qt5\include\QtSql;C:\OSGeo4W64\apps\Qt5\include\QtCore;C:\OSGeo4W64\apps\Qt5\.\mkspecs\win32-msvc;C:\OSGeo4W64\apps\Qt5\include\QtUiTools;C:\OSGeo4W64\apps\Qt5\include\QtWidgets;C:\OSGeo4W64\apps\Qt5\include\QtGui;C:\OSGeo4W64\apps\Qt5\include\QtANGLE;C:\OSGeo4W64\apps\Qt5\include\QtWebKitWidgets;C:\OSGeo4W64\apps\Qt5\include\QtWebKit;C:\OSGeo4W64\apps\Qt5\include\QtNetwork;C:\OSGeo4W64\apps\Qt5\include\QtXml;C:\OSGeo4W64\apps\Qt5\include\QtSvg;C:\OSGeo4W64\apps\Qt5\include\QtPrintSupport;C:\OSGeo4W64\apps\Qt5\include\QtConcurrent;C:\OSGeo4W64\apps\Qt5\include\QtSerialPort;C:\OSGeo4W64\apps\Qt5\include\QtPositioning;C:\OSGeo4W64\apps\Qt5\include\QtWinExtras;C:\OSGeo4W64\apps\Qt5\include\QtQuickWidgets;C:\OSGeo4W64\apps\Qt5\include\QtQuick;C:\OSGeo4W64\apps\Qt5\include\QtQml;C:\OSGeo4W64\apps\Qt5\include\Qt3DCore;C:\OSGeo4W64\apps\Qt5\include\Qt3DRender;C:\OSGeo4W64\apps\Qt5\include\Qt3DInput;C:\OSGeo4W64\apps\Qt5\include\QtGamepad;C:\OSGeo4W64\apps\Qt5\include\Qt3DLogic;C:\OSGeo4W64\apps\Qt5\include\Qt3DExtras;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>D:\OSGeo4W64\apps\Qt5\lib;.\qgislib\core;.\qgislib\core\$(Configuration);.\qgislib\gui;.\qgislib\src/gui\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>qgis_core.lib;qgis_app.lib;qgis_gui.lib;Qt5Widgets.lib;Qt5Xml.lib;Qt5Qml.lib;Qt5QmlDebug.lib;Qt5PrintSupport.lib;qt5keychain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <FullProgramDatabaseFile>true</FullProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+    </Link>
+  </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
     <QtInstall>qt5</QtInstall>
     <QtModules>core;xml;gui;svg;widgets;qml;quick</QtModules>
@@ -57,8 +66,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
     <QtInstall>qt5</QtInstall>
-    <QtModules>core;xml;gui;svg;widgets;qml;quick</QtModules>
     <QtBuildConfig>release</QtBuildConfig>
+    <QtModules>core;xml;gui;svg;widgets;qml;quick</QtModules>
   </PropertyGroup>
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
     <Import Project="$(QtMsBuild)\qt.props" />
@@ -80,20 +89,25 @@
     <ClCompile>
       <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
-      <DebugInformationFormat>None</DebugInformationFormat>
-      <Optimization>MaxSpeed</Optimization>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp"/>
-    <QtRcc Include="qml.qrc"/>
-    <None Include="main.qml"/>
-
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapRepApp.cpp" />
+    <QtRcc Include="images\images.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MapRepApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MapRepApp.ui" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

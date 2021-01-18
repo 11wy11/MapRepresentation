@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\CMakeFiles\c8f26deea2627c6a3dde57ed3ecb1b1e\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8F640436-AF42-375B-B7E2-6AA09A84E22F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

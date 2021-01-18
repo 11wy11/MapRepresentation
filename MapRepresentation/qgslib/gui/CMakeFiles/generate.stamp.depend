@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/OSGeo4W64/QGIS/src/gui/CMakeLists.txt
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5/Qt5Config.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5/Qt5ConfigVersion.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5/Qt5ModuleLocation.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QDebugMessageServiceFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugServiceFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5QuickWidgets/Qt5QuickWidgetsConfig.cmake
+C:/OSGeo4W64/apps/Qt5/lib/cmake/Qt5QuickWidgets/Qt5QuickWidgetsConfigVersion.cmake
+C:/cmake-3.19.0-win64-x64/share/cmake-3.19/Modules/exportheader.cmake.in

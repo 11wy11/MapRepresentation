@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0.14393.0
+RelWithDebInfo|x64|C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\|

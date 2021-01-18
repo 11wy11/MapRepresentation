@@ -1,0 +1,3483 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\ms-windows\osgeo4w\build-qgis-test-x86_64\src\gui\qgis_gui_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgscolorrampshaderwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsmultibandcolorrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgspalettedrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterbandcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrastercontourrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterhistogramwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterlayerproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterlayertemporalpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterminmaxwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgssinglebandgrayrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgssinglebandpseudocolorrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrendererrasterpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrastertransparencywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgshillshaderendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsresamplingutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributeactiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributeactionpropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributesforminitcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributesformproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsdiagramproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsfieldcalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsjoindialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgssourcefieldsproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayerlegendwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayerproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayersavestyledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgswmsdimensiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgs25drendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\characterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsarrowsymbollayerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsbrushstylecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgscategorizedsymbolrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgscptcitycolorrampdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsdashspacedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsdatadefinedsizelegendwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsellipsesymbollayerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsgraduatedhistogramwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsgraduatedsymbolrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsheatmaprendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsinvertedpolygonrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgslayerpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsmasksymbollayerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsnullsymbolrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspenstylecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspointclusterrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspointdisplacementrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrendererpropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrulebasedrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssinglesymbolrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssmartgroupeditordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstyleexportimportdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylegroupselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylemanagerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylesavedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssvgselectorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbollayerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbollevelsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolslistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolselectordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolwidgetcontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsvectorfieldsymbollayerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgseffectdrawmodecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgseffectstackpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgspainteffectpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgspainteffectwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\callouts\qgscalloutwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributeformcontaineredit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributetypedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributewidgetedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetabledelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetablefiltermodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetableview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsdualview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistviewdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeatureselectionmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfieldconditionalformatwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsgenericfeatureselectionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsvectorlayerselectionmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsorganizetablecolumnsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturefilterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthauthoritieseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcertificateinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcertificatemanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcerttrustpolicycombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigidedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsautheditorwidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthguiutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthidentitieseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthimportcertdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthimportidentitydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthmasterpassresetdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthserverseditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslconfigwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslerrorsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslimportdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthtrustedcasdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcolorscheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcolorschemeregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorhtml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorjs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorpython.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorsql.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorexpression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\devtools\qgsdevtoolwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\devtools\qgsdevtoolwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorconfigwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetautoconf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgssearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgswidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsbinarywidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsbinarywidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxsearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsclassificationwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsclassificationwidgetwrapperfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscolorwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscolorwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimesearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdefaultsearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdoublespinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdummyconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsenumerationwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsenumerationwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourceconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourcewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourcewidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshiddenwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshiddenwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshtmlwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgskeyvaluewidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgskeyvaluewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgslistwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgslistwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsmultiedittoolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangeconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangewidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationaggregatesearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgssearchwidgettoolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsspinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferenceconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencefactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencesearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditsearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluesconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluewidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuuidwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuuidwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapsearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationconfigdlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationsearchwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelengineconfigdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelinggui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabellineanchorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelobstaclesettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelsettingswidgetbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgsrulebasedlabelingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgscustomlayerorderwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedconfigwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedwidgetregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedwidgetsimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreemapcanvasbridge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewdefaultactions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewindicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewitemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgsgeopdflayertreemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutaddpagesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutguiutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutatlaswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutattributeselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutattributetablewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutcustomdrophandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutguidewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayouthtmlwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutimageexportoptionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemguiregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemslistview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlabelwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlegendlayersdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlegendwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmanualtablewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmapgridwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmapwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmarkerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmousehandles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutnewitempropertiesdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpagepropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpdfexportoptionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpicturewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpolygonwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpolylinewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutqptdrophandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutreportsectionlabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutruler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutscalebarwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutshapewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayouttablebackgroundcolorsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutunitscombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutvaliditychecks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewmouseevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewrubberband.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooladditem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooladdnodeitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooleditnodes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolmoveitemcontent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolpan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarykeypan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarykeyzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarymousepan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\locator\qgslocatorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshlayerproperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsrenderermeshpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshdatasetgrouptreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderer3daveragingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderermeshsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrendererscalarsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderervectorsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrendereractivedatasetwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshdatasetgrouptreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshstaticdatasetwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshvariablestrokewidthwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatselectorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatguiregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsogrhelperfunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsnewogrconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsvectorlayersaveasdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrendererpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrgbrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingaggregatewidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingaggregatewidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingalgorithmconfigurationwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingalgorithmdialogbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingconfigurationwidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingdxflayerswidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingenummodelerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingfeaturesourceoptionswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingfieldmapwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingguiregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmaplayercombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmatrixmodelerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmatrixparameterdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmeshdatasetwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmodelerparameterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmultipleselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingoutputdestinationwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingparameterdefinitionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingparameterswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingrecentalgorithmlog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtininputlayerswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtoolboxmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtoolboxtreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingvectortilewriterlayerswidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingwidgetwrapperimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelarrowitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelcomponentgraphicitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodeldesignerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodeldesignerinputstreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicsscene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicsview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgroupboxdefinitionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelinputreorderwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelsnapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelundocommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewmouseevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewmousehandles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewrubberband.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtoolselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarykeypan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarykeyzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarymousepan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtoolzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\qgspointcloudproviderguimetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\qgspointcloudsourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\gdal\qgsgdalsourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\gdal\qgsgdalguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrdbsourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrdbtablemodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrsourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageprojectstoragedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageitemguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogritemguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageprojectstorageguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditorformattingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsarcgisvectortileconnectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilebasiclabelingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilebasicrendererwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortileconnectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortiledataitemguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortileproviderguimetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilesourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgisinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgs3dsymbolwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsabstractmaptoolhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsactionmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsaddattrdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsaddtaborgroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsadvanceddigitizingcanvasitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsadvanceddigitizingdockwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsadvanceddigitizingfloater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsaggregatetoolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsalignmentcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsapplicationexitblockerinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeeditorcontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeforminterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformlegacyinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributetypeloaddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformrelationeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsblendmodecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowsertreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserguimodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserdockwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsbusyindicatordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscharacterselectordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscheckablecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscollapsiblegroupbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorbrewercolorrampdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorrampbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorschemelist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorswatchgrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorwidgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscompoundcolorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsconfigureshortcutsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscoordinateboundspreviewmapwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscoordinateoperationwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscredentialdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscustomdrophandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscustomprojectopenhandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgscurveeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatabaseschemacombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatabasetablecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdataitemguiprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdataitemguiproviderregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatumtransformdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatasourceselectdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdoublevalidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdockwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsencodingfiledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgserrordialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionbuilderdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionbuilderwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionhighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionlineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionpreviewwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionstoredialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressiontreeview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsextentgroupbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsextentwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsexternalresourcewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeatureselectiondlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldexpressionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeaturepickerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldmappingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldmappingmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeaturelistcombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldvalidator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldvalueslineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilecontentsourcelineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilterlineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfindfilesbypatternwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfloatingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfocuskeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfocuswatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfontbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsformannotation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgeocoderlocatorfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgeometryrubberband.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgradientcolorrampdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgradientstopeditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgraphicsviewmousehandles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgroupwmsdatadialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsguiutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlightablecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlightablelineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgshistogramwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgshelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsidentifymenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsinstallgridshiftdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgskeyvaluewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendfilterbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendpatchshapebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendpatchshapewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslimitedrandomcolorrampdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgslocaleawarenumericlineeditdelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsratiolockbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsludialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmanageconnectionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasannotationitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvassnappingutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvastracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayeractionregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayercombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerconfigwidgetfactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerloadstyledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstylecategoriesmodel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstyleguiutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstylemanagerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapmouseevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapoverviewcanvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaskingwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooladvanceddigitizing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolcapture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooledit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooldigitizefeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolemitpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolextent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolidentify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolidentifyfeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolpan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolzoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerconfigwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaterialsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmenuheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagebaritem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagelogviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessageviewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmetadatawidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsmasksourceselectionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewauxiliarylayerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewauxiliaryfielddialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewdatabasetablenamewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewhttpconnection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewmemorylayerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewnamedialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewvectorlayerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewgeopackagelayerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewvectortabledialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsopacitywidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialogbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialoghighlightwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialoghighlightwidgetsimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsorderbydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsowssourceselect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspanelwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspanelwidgetstack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspasswordlineedit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspixmaplabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspluginmanagerinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspointcloudattributecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspresetcolorrampdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsprevieweffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectiondialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectiontreewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspropertyassistantwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgspropertyoverridebutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderguiregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderguimetadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectstorageguiregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderconnectioncombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsproxystyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsquerybuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterformatsaveoptionswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterlayersaveasdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterpyramidsoptionswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsrelationeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsrubberband.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalecombobox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalerangewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalevisibilitydialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsscrollarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssearchquerybuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorproviderregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsshortcutsmanager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsslider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssnapindicator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssnaptogridcanvasitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsstyleitemslistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssublayersdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssubstitutionlistwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssqlcomposerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsstatusbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssymbolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssymbollayerselectionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstablewidgetbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstabwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstablewidgetitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstaskmanagerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstemporalmapsettingswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstemporalcontrollerwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstextformatwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstextpreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgstreewidgetitem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsunitselectionwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsuserinputwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsvaliditycheckresultswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsvariableeditorwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsvectorlayertemporalpropertieswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsvertexmarker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsfiledownloaderdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsvscrollarea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatasourcemanagerdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsabstractdatasourcewidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgswidgetstatehelper_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssourceselectprovider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgssourceselectproviderregistry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsqmlwidgetwrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserdockwidget_p.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgisinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgs3dsymbolwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsabstractdatasourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsabstractmaptoolhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsactionmenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsaddattrdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsaddtaborgroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsadvanceddigitizingdockwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsadvanceddigitizingfloater.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsaggregatetoolbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsalignmentcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsapplicationexitblockerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeeditorcontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeforminterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformlegacyinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformrelationeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributeformwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsattributetypeloaddialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsblendmodecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserdockwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserguimodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowsertreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsbusyindicatordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscharacterselectordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscheckablecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscollapsiblegroupbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorbrewercolorrampdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorrampbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorschemelist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorswatchgrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscolorwidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscompoundcolorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsconfigureshortcutsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscoordinateboundspreviewmapwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscoordinateoperationwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscredentialdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscurveeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscustomdrophandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgscustomprojectopenhandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatabaseschemacombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatabasetablecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdataitemguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdataitemguiproviderregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatasourcemanagerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatasourceselectdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewdatabasetablenamewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdatumtransformdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemdata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdetaileditemwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdockwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsdoublevalidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsencodingfiledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgserrordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionbuilderdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionstoredialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionbuilderwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionhighlighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionlineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionpreviewwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressionselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexpressiontreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsextentgroupbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsextentwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsexternalresourcewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeaturepickerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeaturelistcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfeatureselectiondlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldexpressionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldmappingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldmappingmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldvalidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfieldvalueslineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilecontentsourcelineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfiledownloaderdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfilterlineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfindfilesbypatternwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfloatingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfocuswatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsfontbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsformannotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgeocoderlocatorfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgeometryrubberband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgradientcolorrampdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgradientstopeditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgraphicsviewmousehandles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgroupwmsdatadialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsguiutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgshelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlightablecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgshighlightablelineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgshistogramwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsidentifymenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsinstallgridshiftdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgskeyvaluewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendfilterbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendpatchshapebutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslegendpatchshapewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslimitedrandomcolorrampdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslistwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgslonglongvalidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsludialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmanageconnectionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasannotationitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasinteractionblocker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvassnappingutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvastracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapcanvasutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayeractionregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayercombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerconfigwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerconfigwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerloadstyledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstylecategoriesmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstyleguiutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaplayerstylemanagerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapmouseevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmapoverviewcanvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooladvanceddigitizing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolcapture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooldigitizefeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptooledit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolemitpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolextent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolidentify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolidentifyfeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolpan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaptoolzoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaskingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmaterialsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmenuheader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagebaritem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessagelogviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmessageviewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmetadatawidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsmasksourceselectionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewauxiliaryfielddialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewauxiliarylayerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewgeopackagelayerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewvectortabledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewhttpconnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewmemorylayerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewnamedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsnewvectorlayerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsopacitywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialogbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialoghighlightwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionsdialoghighlightwidgetsimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsoptionswidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsorderbydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsowssourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspanelwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspanelwidgetstack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspasswordlineedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspixmaplabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspluginmanagerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspointcloudattributecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspresetcolorrampdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprevieweffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectiontreewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectionselectionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectstorageguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsprojectstorageguiregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspropertyassistantwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgspropertyoverridebutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderconnectioncombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderguimetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsproviderguiregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsproxystyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsquerybuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterformatsaveoptionswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterlayersaveasdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsrasterpyramidsoptionswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsratiolockbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsrelationeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsrubberband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalerangewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalevisibilitydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsscalewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsscrollarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssearchquerybuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssubsetstringeditorproviderregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsshortcutsmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsslider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssnapindicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssnaptogridcanvasitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssourceselectprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssourceselectproviderregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssqlcomposerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsstatusbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsstyleitemslistwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssublayersdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssubstitutionlistwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssymbolbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgssymbollayerselectionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstablewidgetbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstablewidgetitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstabwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstaskmanagerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstemporalmapsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstemporalcontrollerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstextformatwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstextpreview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgstreewidgetitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsunitselectionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsuserinputwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsvaliditycheckresultswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsvariableeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsvectorlayertemporalpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsvertexmarker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsvscrollarea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgswindowmanagerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributeformcontaineredit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributetypedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributeformconfig\qgsattributewidgetedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetabledelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetablefiltermodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetablemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsattributetableview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsdualview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturelistviewdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeatureselectionmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfieldconditionalformatwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsgenericfeatureselectionmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsifeatureselectionmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsorganizetablecolumnsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsvectorlayerselectionmanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthauthoritieseditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcertificateinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcertificatemanager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthcerttrustpolicycombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigeditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigidedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthconfigselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsautheditorwidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthguiutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthidentitieseditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthimportcertdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthimportidentitydialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthmasterpassresetdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthmethodedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthserverseditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslconfigwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslerrorsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthsslimportdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\auth\qgsauthtrustedcasdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\callouts\qgscalloutwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcolorscheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcolorschemeregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorcss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorexpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorhtml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorjs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorpython.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\codeeditors\qgscodeeditorsql.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\devtools\qgsdevtoolwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\devtools\qgsdevtoolwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorconfigwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetautoconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgseditorwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgssearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\core\qgswidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsbinarywidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsbinarywidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxsearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscheckboxwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsclassificationwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsclassificationwidgetwrapperfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscolorwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgscolorwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeedit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimeeditwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdatetimesearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdefaultsearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdoublespinbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsdummyconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsenumerationwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsenumerationwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourceconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourcewidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsexternalresourcewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshiddenwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshiddenwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgshtmlwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgskeyvaluewidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgskeyvaluewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgslistwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgslistwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsmultiedittoolbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangeconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangewidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrangewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationaggregatesearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferenceconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencefactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencesearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationreferencewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsrelationwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgssearchwidgettoolbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsspinbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditsearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgstexteditwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluesconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluewidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuniquevaluewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuuidwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsuuidwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapsearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluemapwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationconfigdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationsearchwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationwidgetfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsvaluerelationwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgseffectdrawmodecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgseffectstackpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgspainteffectpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\effects\qgspainteffectwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelengineconfigdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelinggui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabellineanchorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelobstaclesettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgslabelsettingswidgetbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\labeling\qgsrulebasedlabelingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgscustomlayerorderwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedconfigwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedwidgetregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeembeddedwidgetsimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreemapcanvasbridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewdefaultactions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewindicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layertree\qgslayertreeviewitemdelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgsgeopdflayertreemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutaddpagesdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutguiutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutatlaswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutattributeselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutattributetablewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutcustomdrophandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutdesignerinterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutguidewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayouthtmlwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutimageexportoptionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemguiregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemslistview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutitemwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlabelwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlegendlayersdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutlegendwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmanualtablewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmapgridwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmapwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmarkerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutmousehandles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutnewitempropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpagepropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpdfexportoptionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpicturewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpolygonwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpolylinewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutqptdrophandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutreportsectionlabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutruler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutscalebarwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutshapewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayouttablebackgroundcolorsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutunitscombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewmouseevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewrubberband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooladditem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooladdnodeitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooleditnodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolmoveitemcontent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolpan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarykeypan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarykeyzoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtooltemporarymousepan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\layout\qgslayoutviewtoolzoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\locator\qgslocatorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshlayerproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsrenderermeshpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshdatasetgrouptreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshdatasetgrouptreewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderer3daveragingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderermeshsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrendererscalarsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrenderervectorsettingswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshrendereractivedatasetwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshstaticdatasetwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\mesh\qgsmeshvariablestrokewidthwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatselectorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\numericformats\qgsnumericformatguiregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsnewogrconnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsogrhelperfunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\ogr\qgsvectorlayersaveasdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrendererpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\pointcloud\qgspointcloudrgbrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingaggregatewidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingaggregatewidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingalgorithmconfigurationwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingalgorithmdialogbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingconfigurationwidgets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingdxflayerswidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingenummodelerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingfeaturesourceoptionswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingfieldmapwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessinggui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingguiregistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmaplayercombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmatrixmodelerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmatrixparameterdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmeshdatasetwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmodelerparameterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingmultipleselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingoutputdestinationwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingparameterdefinitionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingparameterswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingrecentalgorithmlog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtininputlayerswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtoolboxmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingtoolboxtreeview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingvectortilewriterlayerswidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\qgsprocessingwidgetwrapperimpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelarrowitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelcomponentgraphicitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodeldesignerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodeldesignerinputstreewidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicitem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicsscene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgraphicsview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelgroupboxdefinitionwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelinputreorderwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelsnapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelundocommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewmouseevent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewmousehandles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewrubberband.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtoolselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarykeypan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarykeyzoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtooltemporarymousepan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\processing\models\qgsmodelviewtoolzoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\qgspointcloudsourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\qgspointcloudproviderguimetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\gdal\qgsgdalguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\gdal\qgsgdalsourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageitemguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageprojectstoragedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsgeopackageprojectstorageguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrdbsourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrdbtablemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogritemguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\providers\ogr\qgsogrsourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgscolorrampshaderwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgshillshaderendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsmultibandcolorrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgspalettedrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterbandcombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrastercontourrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterhistogramwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterminmaxwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrastertransparencywidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrendererrasterpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgssinglebandgrayrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgssinglebandpseudocolorrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterlayerproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsrasterlayertemporalpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\raster\qgsresamplingutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributeactiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributeactionpropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributesforminitcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsattributesformproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsdiagramproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsfieldcalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsjoindialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgssourcefieldsproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayerlegendwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayerproperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgsvectorlayersavestyledialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vector\qgswmsdimensiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\characterwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgs25drendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsarrowsymbollayerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsbrushstylecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgscategorizedsymbolrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgscptcitycolorrampdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsdashspacedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsdatadefinedsizelegendwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsellipsesymbollayerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsgraduatedhistogramwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsgraduatedsymbolrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsheatmaprendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsinvertedpolygonrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgslayerpropertieswidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsnullsymbolrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsmasksymbollayerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspenstylecombobox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspointclusterrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgspointdisplacementrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrendererpropertiesdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsrulebasedrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssinglesymbolrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssmartgroupeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstyleexportimportdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylegroupselectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylemanagerdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsstylesavedialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssvgselectorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbollayerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbollevelsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolselectordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolslistwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgssymbolwidgetcontext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\symbology\qgsvectorfieldsymbollayerwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditordialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditorformattingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\tableeditor\qgstableeditorwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsarcgisvectortileconnectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilebasiclabelingwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilebasicrendererwidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortileconnectiondialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortiledataitemguiprovider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortileproviderguimetadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\vectortile\qgsvectortilesourceselect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgsbrowserdockwidget_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\editorwidgets\qgsqmlwidgetwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\qgswidgetstatehelper_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\OSGeo4W64\QGIS\src\gui\attributetable\qgsfeaturefilterwidget_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OSGeo4W64\QGIS\src\gui\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{51F2DEFF-8AC8-3B24-934D-A0D64585FBAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{828B8E04-2483-3D2E-BB17-EA6D9614DC66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
