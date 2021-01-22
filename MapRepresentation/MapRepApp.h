@@ -3,28 +3,34 @@ class QgisAppInterface;
 class QgsMapTool;
 class QgsVectorLayer;
 class QgsMapLayer;
-
+class QgsCustomProjectOpenHandler;
+// class QgsHandleBadLayersHandler;
 
 #include <QMainWindow>
 #include "ui_MapRepApp.h"
-#include <QDateTime>
 // qgs相关的
 #include <qgsmapcanvas.h>
 #include "qgsdatasourcemanagerdialog.h"
-#include <qgsmaptoolidentify.h>
+//#include <qgsmaptoolidentify.h>
 #include <qgslayertreeview.h>
-#include <qgsmasterlayoutinterface.h>
-#include "qgslib/app/layout/qgslayoutdesignerdialog.h"
+//#include <qgsmasterlayoutinterface.h>
+//#include "qgslib/app/layout/qgslayoutdesignerdialog.h"
 #include "qgslayertreeregistrybridge.h"
-#include "qgslayoutmanager.h"
+//#include "qgslayoutmanager.h"
 #include "qgslayertreegroup.h"
-#include "qgsauthmanager.h"
+//#include "qgsauthmanager.h"
 #include "qgslayertree.h"
-#include "qgstaskmanager.h"
+//#include "qgstaskmanager.h"
 #include "qgsbrowserguimodel.h"
-#ifdef Q_OS_WIN
-#include <windows.h>
-#endif
+//#include "qgsmessagebar.h"
+#include "qgscustomprojectopenhandler.h"
+// #include "qgshandlebadlayers.h"
+#include "qgslayertreemapcanvasbridge.h"
+#include "qgscustomlayerorderwidget.h"
+#include "qgsdockwidget.h"
+//#include "qgsvectorlayer.h"
+#include "qgsvectorlayerref.h"
+
 class MapRepApp : public QMainWindow
 {
 	Q_OBJECT
@@ -40,9 +46,18 @@ private:
 	QgsMapCanvas *mMapCanvas = nullptr;
 	//! Table of contents (legend) for the map
 	QgsLayerTreeView *mLayerTreeView = nullptr;
+	//! Helper class that connects layer tree with map canvas
+	QgsLayerTreeMapCanvasBridge *mLayerTreeCanvasBridge = nullptr;
+	//! Table of contents (legend) to order layers of the map
+	QgsCustomLayerOrderWidget *mMapLayerOrder = nullptr;
 	QList<QgsMapLayer *> mLayers;
+	// docks ------------------------------------------
+	QgsDockWidget *mLayerTreeDock = nullptr;
+	QgsDockWidget *mLayerOrderDock = nullptr;
+	QgsDockWidget *mOverviewDock = nullptr;
+
 	//! Currently open layout designer dialogs
-	QSet<QgsLayoutDesignerDialog *> mLayoutDesignerDialogs;
+	/*QSet<QgsLayoutDesignerDialog *> mLayoutDesignerDialogs;*/
 
 	//! Data Source Manager
 	QgsDataSourceManagerDialog *mDataSourceManagerDialog = nullptr;
@@ -53,7 +68,8 @@ private:
 	// status bar //! a bar to display warnings in a non-blocker manner
 	QgsMessageBar *mInfoBar = nullptr;
 	QStackedWidget *mCentralContainer = nullptr;
-
+	QVector<QPointer<QgsCustomProjectOpenHandler>> mCustomProjectOpenHandlers;
+	// QgsHandleBadLayersHandler *mAppBadLayersHandler = nullptr;
 	// map tools
 	class Tools
 	{
@@ -177,12 +193,16 @@ private:
 	bool fileNew(bool promptToSaveFlag, bool forceBlank = false);
 	bool fileNewFromTemplate(const QString &fileName);
 	void fileNewFromDefaultTemplate();
-	QgsMessageBar *messageBar();
-	QgsMessageBar *visibleMessageBar();
+	void fileOpen();
+	//QgsMessageBar *messageBar();
+	//QgsMessageBar *visibleMessageBar();
 	void pan();
 	void zoomIn();
 	void zoomOut();
 	bool addProject(const QString &projectFile);
+	const QList<QgsVectorLayerRef> findBrokenLayerDependencies(QgsVectorLayer *vl, QgsMapLayer::StyleCategories categories) const;
+	/*void resolveVectorLayerDependencies(QgsVectorLayer *vectorLayer,
+		QgsMapLayer::StyleCategories categories = QgsMapLayer::AllStyleCategories);*/
 	//! Checks for running tasks dependent on the open project
 	bool checkTasksDependOnProject();
 	/**
@@ -191,6 +211,9 @@ private:
 	*/
 	bool saveDirty();
 
+	void markDirty();
+	bool fileSave();
+	void saveRecentProjectPath(bool savePreviewImage = true, const QIcon &iconOverlay = QIcon());
 	/**
 	* Checks for unsaved changes in open layers and prompts the user to save
 	* or discard these changes for each layer.
@@ -218,63 +241,63 @@ private:
 	// 数据相关
 #pragma region 数据加载相关
 	
-	void addMapLayer(QgsMapLayer *mapLayer);
+	//void addMapLayer(QgsMapLayer *mapLayer);
 
-	QgsRasterLayer *addRasterLayer(const QString &rasterFile, const QString &baseName, bool guiWarning = true);
-	QgsRasterLayer *addRasterLayer(QString const &uri, QString const &baseName, QString const &providerKey);
-	void addRasterLayer();
-	bool addRasterLayer(QgsRasterLayer *rasterLayer);
-	/**
-	* Add a vector layer directly without prompting user for location
-	The caller must provide information compatible with the provider plugin
-	using the \a vectorLayerPath and \a baseName. The provider can use these
-	parameters in any way necessary to initialize the layer. The \a baseName
-	parameter is used in the Map Legend so it should be formed in a meaningful
-	way.
-	*/
-	QgsVectorLayer *addVectorLayer(const QString &vectorLayerPath, const QString &baseName, const QString &providerKey);
+	//QgsRasterLayer *addRasterLayer(const QString &rasterFile, const QString &baseName, bool guiWarning = true);
+	//QgsRasterLayer *addRasterLayer(QString const &uri, QString const &baseName, QString const &providerKey);
+	//void addRasterLayer();
+	//bool addRasterLayer(QgsRasterLayer *rasterLayer);
+	///**
+	//* Add a vector layer directly without prompting user for location
+	//The caller must provide information compatible with the provider plugin
+	//using the \a vectorLayerPath and \a baseName. The provider can use these
+	//parameters in any way necessary to initialize the layer. The \a baseName
+	//parameter is used in the Map Legend so it should be formed in a meaningful
+	//way.
+	//*/
+	//QgsVectorLayer *addVectorLayer(const QString &vectorLayerPath, const QString &baseName, const QString &providerKey);
 
-	bool addVectorLayersPrivate(const QStringList &layerQStringList, const QString &enc, const QString &dataSourceType, const bool guiWarning);
-	QgsVectorLayer *addVectorLayerPrivate(const QString &vectorLayerPath, const QString &name, const QString &providerKey, const bool guiWarning);
-	QList<QgsMapLayer *> askUserForOGRSublayers(QgsVectorLayer *&parentLayer, const QStringList &sublayers);
-	bool askUserForDatumTransform(const QgsCoordinateReferenceSystem &sourceCrs, const QgsCoordinateReferenceSystem &destinationCrs, const QgsMapLayer *layer);
-	void activateDeactivateLayerRelatedActions(QgsMapLayer *layer);
-	QgsMapLayer *activeLayer();
-	/**
-	* Adds a mesh layer directly without prompting user for location
-	* The caller must provide information compatible with the provider plugin
-	* using the \a url and \a baseName. The provider can use these
-	* parameters in any way necessary to initialize the layer. The \a baseName
-	* parameter is used in the Map Legend so it should be formed in a meaningful
-	* way.
-	*/
-	QgsMeshLayer *addMeshLayer(const QString &url, const QString &baseName, const QString &providerKey);
+	//bool addVectorLayersPrivate(const QStringList &layerQStringList, const QString &enc, const QString &dataSourceType, const bool guiWarning);
+	//QgsVectorLayer *addVectorLayerPrivate(const QString &vectorLayerPath, const QString &name, const QString &providerKey, const bool guiWarning);
+	//QList<QgsMapLayer *> askUserForOGRSublayers(QgsVectorLayer *&parentLayer, const QStringList &sublayers);
+	//bool askUserForDatumTransform(const QgsCoordinateReferenceSystem &sourceCrs, const QgsCoordinateReferenceSystem &destinationCrs, const QgsMapLayer *layer);
+	//void activateDeactivateLayerRelatedActions(QgsMapLayer *layer);
+	//QgsMapLayer *activeLayer();
+	///**
+	//* Adds a mesh layer directly without prompting user for location
+	//* The caller must provide information compatible with the provider plugin
+	//* using the \a url and \a baseName. The provider can use these
+	//* parameters in any way necessary to initialize the layer. The \a baseName
+	//* parameter is used in the Map Legend so it should be formed in a meaningful
+	//* way.
+	//*/
+	//QgsMeshLayer *addMeshLayer(const QString &url, const QString &baseName, const QString &providerKey);
 
-	/**
-	* Adds a vector tile layer directly without prompting user for location
-	* The caller must provide information needed for layer construction
-	* using the \a url and \a baseName. The \a baseName parameter is used
-	* in the Map Legend so it should be formed in a meaningful way.
-	* \since QGIS 3.14
-	*/
-	QgsVectorTileLayer *addVectorTileLayer(const QString &url, const QString &baseName);
+	///**
+	//* Adds a vector tile layer directly without prompting user for location
+	//* The caller must provide information needed for layer construction
+	//* using the \a url and \a baseName. The \a baseName parameter is used
+	//* in the Map Legend so it should be formed in a meaningful way.
+	//* \since QGIS 3.14
+	//*/
+	//QgsVectorTileLayer *addVectorTileLayer(const QString &url, const QString &baseName);
 
-	/**
-	* Adds a vector tile layer directly without prompting user for location
-	* The caller must provide information needed for layer construction
-	* using the \a url and \a baseName. The \a baseName parameter is used
-	* in the Map Legend so it should be formed in a meaningful way.
-	* \since QGIS 3.18
-	*/
-	// QgsPointCloudLayer *addPointCloudLayer(const QString &url, const QString &baseName, const QString &providerKey);
-	//! Add a list of database layers to the map
-	void addDatabaseLayers(QStringList const &layerPathList, QString const &providerKey);
-	//! Add a vector layer defined by uri, layer name, data source uri
-	void addSelectedVectorLayer(const QString &uri, const QString &layerName, const QString &provider);
-	//! Replace the selected layer by a vector layer defined by uri, layer name, data source uri
-	void replaceSelectedVectorLayer(const QString &oldId, const QString &uri, const QString &layerName, const QString &provider);
+	///**
+	//* Adds a vector tile layer directly without prompting user for location
+	//* The caller must provide information needed for layer construction
+	//* using the \a url and \a baseName. The \a baseName parameter is used
+	//* in the Map Legend so it should be formed in a meaningful way.
+	//* \since QGIS 3.18
+	//*/
+	//// QgsPointCloudLayer *addPointCloudLayer(const QString &url, const QString &baseName, const QString &providerKey);
+	////! Add a list of database layers to the map
+	//void addDatabaseLayers(QStringList const &layerPathList, QString const &providerKey);
+	////! Add a vector layer defined by uri, layer name, data source uri
+	//void addSelectedVectorLayer(const QString &uri, const QString &layerName, const QString &provider);
+	////! Replace the selected layer by a vector layer defined by uri, layer name, data source uri
+	//void replaceSelectedVectorLayer(const QString &oldId, const QString &uri, const QString &layerName, const QString &provider);
 
-	void showStatusMessage(const QString &message);
+	//void showStatusMessage(const QString &message);
 #pragma endregion
 	//! clear out any stuff from project
 	void closeProject();
@@ -283,37 +306,37 @@ private:
 	//! refresh map canvas
 	void refreshMapCanvas(bool redrawAllLayers = false);
 
-	public slots:
-	void openProject(QAction *action);
-	void openProject(const QString &fileName);
-	bool openLayer(const QString &fileName, bool allowInteractive);
-	void openLayerDefinition(const QString &path);
-	void openTemplate(const QString &fileName);
-	void runScript(const QString &filePath);
-	// file 
-		//! Convenience function to open either a project or a layer file.
-		void openFile(const QString &fileName, const QString &fileTypeHint = QString());
-		void layerTreeViewDoubleClicked(const QModelIndex &index);
+	//public slots:
+	//void openProject(QAction *action);
+	//void openProject(const QString &fileName);
+	//bool openLayer(const QString &fileName, bool allowInteractive);
+	//void openLayerDefinition(const QString &path);
+	//void openTemplate(const QString &fileName);
+	//void runScript(const QString &filePath);
+	//// file 
+	//	//! Convenience function to open either a project or a layer file.
+	//	void openFile(const QString &fileName, const QString &fileTypeHint = QString());
+	//	void layerTreeViewDoubleClicked(const QModelIndex &index);
 
-		//map nav
+	//	//map nav
 
-		//! Zoom to full extent
-		void zoomFull();
-		//! Zoom to the previous extent
-		void zoomToPrevious();
-		//! Zoom to the forward extent
-		void zoomToNext();
-		//! Zoom to selected features
-		void zoomToSelected();
-		//! Pan map to selected features
-		void panToSelected();
+	//	//! Zoom to full extent
+	//	void zoomFull();
+	//	//! Zoom to the previous extent
+	//	void zoomToPrevious();
+	//	//! Zoom to the forward extent
+	//	void zoomToNext();
+	//	//! Zoom to selected features
+	//	void zoomToSelected();
+	//	//! Pan map to selected features
+	//	void panToSelected();
 
-		//! open the properties dialog for the currently selected layer
-		void layerProperties();
+	//	//! open the properties dialog for the currently selected layer
+	//	void layerProperties();
 
-		int messageTimeout();
-		bool uniqueLayoutTitle(QWidget *parent, QString &title, bool acceptEmpty, QgsMasterLayoutInterface::Type type, const QString &currentTitle);
-		QgsLayoutDesignerDialog *openLayoutDesignerDialog(QgsMasterLayoutInterface *layout);
+	//	int messageTimeout();
+	//	bool uniqueLayoutTitle(QWidget *parent, QString &title, bool acceptEmpty, QgsMasterLayoutInterface::Type type, const QString &currentTitle);
+	//	QgsLayoutDesignerDialog *openLayoutDesignerDialog(QgsMasterLayoutInterface *layout);
 		// map 
 public: signals:
 		
@@ -344,22 +367,22 @@ public: signals:
 		* \see layoutDesignerWillBeClosed()
 		* \since QGIS 3.0
 		*/
-		void layoutDesignerOpened(QgsLayoutDesignerInterface *designer);
+		//void layoutDesignerOpened(QgsLayoutDesignerInterface *designer);
 
-		/**
-		* Emitted before a layout \a designer is going to be closed
-		* and deleted.
-		* \see layoutDesignerClosed()
-		* \see layoutDesignerOpened()
-		* \since QGIS 3.0
-		*/
-		void layoutDesignerWillBeClosed(QgsLayoutDesignerInterface *designer);
+		///**
+		//* Emitted before a layout \a designer is going to be closed
+		//* and deleted.
+		//* \see layoutDesignerClosed()
+		//* \see layoutDesignerOpened()
+		//* \since QGIS 3.0
+		//*/
+		//void layoutDesignerWillBeClosed(QgsLayoutDesignerInterface *designer);
 
-		/**
-		* Emitted after a layout designer window is closed.
-		* \see layoutDesignerWillBeClosed()
-		* \see layoutDesignerOpened()
-		* \since QGIS 3.0
-		*/
-		void layoutDesignerClosed();
+		///**
+		//* Emitted after a layout designer window is closed.
+		//* \see layoutDesignerWillBeClosed()
+		//* \see layoutDesignerOpened()
+		//* \since QGIS 3.0
+		//*/
+		//void layoutDesignerClosed();
 };

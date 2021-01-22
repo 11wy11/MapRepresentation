@@ -41,10 +41,24 @@
     <QtUic Include="MapRepApp.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="qgslib\ui\qgsdatasourcemanagerdialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="qgslib\ui\qgsbrowserdockwidgetbase.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="images\images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
