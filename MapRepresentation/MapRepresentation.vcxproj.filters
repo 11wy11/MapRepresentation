@@ -52,13 +52,5 @@
     <QtRcc Include="images\images.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtRcc Include="qml.qrc">
-      <Filter>Resource Files</Filter>
-    </QtRcc>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="main.qml">
-      <Filter>Resource Files</Filter>
-    </None>
   </ItemGroup>
 </Project>

@@ -30,6 +30,13 @@
 // #include "qgsweakrelation.h"
 #include "qgsprovidermetadata.h"
 
+//Map tools
+#include "qgsmaptoolzoom.h"
+#include "qgsmaptoolpan.h"
+#include "qgsmaptoolpinlabels.h"
+#include "qgsmaptoolshowhidelabels.h"
+#include "qgsmaptoolchangelabelproperties.h"
+
 // qgs 界面
 //#include "qgssublayersdialog.h"
 //#include "qgsdatumtransformdialog.h"
@@ -82,8 +89,6 @@ MapRepApp::MapRepApp(QWidget *parent)
 	addDockWidget(Qt::LeftDockWidgetArea, mLayerOrderDock);
 	mLayerOrderDock->hide();
 
-
-
 	// menu items
 	connect(ui.mActionDataSourceManager,&QAction::triggered, this, [=]() {dataSourceManager(); });
 	connect(ui.mActionNewProject, &QAction::triggered, this, [=] { fileNew(); });
@@ -101,6 +106,7 @@ MapRepApp::MapRepApp(QWidget *parent)
 	// set handler for missing layers (will be owned by QgsProject)
 	/*mAppBadLayersHandler = new QgsHandleBadLayersHandler();
 	QgsProject::instance()->setBadLayerHandler(mAppBadLayersHandler);*/
+	createCanvasTools();
 }
 
 MapRepApp::~MapRepApp()
@@ -414,6 +420,27 @@ void MapRepApp::fileOpen()
 //	}
 //}
 
+void MapRepApp::createCanvasTools()
+{
+	// create tools
+	//mMapTools.mZoomIn = new QgsMapToolZoom(mMapCanvas, false /* zoomIn */);
+	//mMapTools.mZoomIn->setAction(ui.mActionZoomIn);
+	//mMapTools.mZoomOut = new QgsMapToolZoom(mMapCanvas, true /* zoomOut */);
+	//mMapTools.mZoomOut->setAction(ui.mActionZoomOut);
+	//mMapTools.mPan = new QgsMapToolPan(mMapCanvas);
+	//connect(static_cast<QgsMapToolPan *>(mMapTools.mPan), &QgsMapToolPan::panDistanceBearingChanged, this, &MapRepApp::showPanMessage);
+	//mMapTools.mPan->setAction(ui.mActionPan);
+	//mMapTools.mPinLabels = new QgsMapToolPinLabels(mMapCanvas);
+	//mMapTools.mPinLabels->setAction(ui.mActionPinLabels);
+	//mMapTools.mShowHideLabels = new QgsMapToolShowHideLabels(mMapCanvas);
+	//mMapTools.mShowHideLabels->setAction(ui.mActionShowHideLabels);
+	//mMapTools.mChangeLabelProperties = new QgsMapToolChangeLabelProperties(mMapCanvas);
+	//mMapTools.mChangeLabelProperties->setAction(ui.mActionChangeLabelProperties);
+	////ensure that non edit tool is initialized or we will get crashes in some situations
+	//mNonEditMapTool = mMapTools.mPan;
+}
+
+
 void MapRepApp::pan()
 {
 	mMapCanvas->setMapTool(mMapTools.mPan);
@@ -429,6 +456,19 @@ void MapRepApp::zoomIn()
 void MapRepApp::zoomOut()
 {
 	mMapCanvas->setMapTool(mMapTools.mZoomOut);
+}
+
+void MapRepApp::showPanMessage(double distance, QgsUnitTypes::DistanceUnit unit, double bearing)
+{
+	const bool showMessage = QgsSettings().value(QStringLiteral("showPanDistanceInStatusBar"), true, QgsSettings::App).toBool();
+	if (!showMessage)
+		return;
+
+	const double distanceInProjectUnits = distance * QgsUnitTypes::fromUnitToUnitFactor(unit, QgsProject::instance()->distanceUnits());
+	const int distanceDecimalPlaces = QgsSettings().value(QStringLiteral("qgis/measure/decimalplaces"), "3").toInt();
+	const QString distanceString = QgsDistanceArea::formatDistance(distanceInProjectUnits, distanceDecimalPlaces, QgsProject::instance()->distanceUnits());
+	// const QString bearingString = mBearingNumericFormat->formatDouble(bearing, QgsNumericFormatContext());
+	//mStatusBar->showMessage(tr("Pan distance %1 (%2)").arg(distanceString, bearingString), 2000);
 }
 
 bool MapRepApp::addProject(const QString &projectFile)

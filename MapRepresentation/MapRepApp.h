@@ -194,11 +194,13 @@ private:
 	bool fileNewFromTemplate(const QString &fileName);
 	void fileNewFromDefaultTemplate();
 	void fileOpen();
+	void createCanvasTools();
 	//QgsMessageBar *messageBar();
 	//QgsMessageBar *visibleMessageBar();
 	void pan();
 	void zoomIn();
 	void zoomOut();
+	void showPanMessage(double distance, QgsUnitTypes::DistanceUnit unit, double bearing);
 	bool addProject(const QString &projectFile);
 	const QList<QgsVectorLayerRef> findBrokenLayerDependencies(QgsVectorLayer *vl, QgsMapLayer::StyleCategories categories) const;
 	/*void resolveVectorLayerDependencies(QgsVectorLayer *vectorLayer,
